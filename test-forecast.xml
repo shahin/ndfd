@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<dwml version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd">
+  <head>
+    <product srsName="WGS 1984" concise-name="time-series" operational-mode="official">
+      <title>NOAA's National Weather Service Forecast Data</title>
+      <field>meteorological</field>
+      <category>forecast</category>
+      <creation-date refresh-frequency="PT1H">2013-04-06T23:43:20Z</creation-date>
+    </product>
+    <source>
+      <more-information>http://graphical.weather.gov/xml/</more-information>
+      <production-center>Meteorological Development Laboratory<sub-center>Product Generation Branch</sub-center></production-center>
+      <disclaimer>http://www.nws.noaa.gov/disclaimer.html</disclaimer>
+      <credit>http://www.weather.gov/</credit>
+      <credit-logo>http://www.weather.gov/images/xml_logo.gif</credit-logo>
+      <feedback>http://www.weather.gov/feedback.php</feedback>
+    </source>
+  </head>
+  <data>
+    <location>
+      <location-key>point1</location-key>
+      <point latitude="37.76" longitude="-122.41"/>
+    </location>
+    <moreWeatherInformation applicable-location="point1">http://forecast.weather.gov/MapClick.php?textField1=37.76&amp;textField2=-122.41</moreWeatherInformation>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p24h-n8-1</layout-key>
+      <start-valid-time>2013-04-06T08:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-06T20:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-07T08:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-07T20:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-08T08:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-08T20:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-09T08:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-09T20:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-10T08:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-10T20:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-11T08:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-11T20:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-12T08:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-12T20:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-13T08:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-13T20:00:00-07:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p24h-n7-2</layout-key>
+      <start-valid-time>2013-04-06T20:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-07T09:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-07T20:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-08T09:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-08T20:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-09T09:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-09T20:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-10T09:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-10T20:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-11T09:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-11T20:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-12T09:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-12T20:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-13T09:00:00-07:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p12h-n15-3</layout-key>
+      <start-valid-time>2013-04-06T05:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-06T17:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-06T17:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-07T05:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-07T05:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-07T17:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-07T17:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-08T05:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-08T05:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-08T17:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-08T17:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-09T05:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-09T05:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-09T17:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-09T17:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-10T05:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-10T05:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-10T17:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-10T17:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-11T05:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-11T05:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-11T17:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-11T17:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-12T05:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-12T05:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-12T17:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-12T17:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-13T05:00:00-07:00</end-valid-time>
+      <start-valid-time>2013-04-13T05:00:00-07:00</start-valid-time>
+      <end-valid-time>2013-04-13T17:00:00-07:00</end-valid-time>
+    </time-layout>
+    <parameters applicable-location="point1">
+      <temperature type="maximum" units="Celsius" time-layout="k-p24h-n8-1">
+        <name>Daily Maximum Temperature</name>
+        <value>17</value>
+        <value>16</value>
+        <value>17</value>
+        <value>21</value>
+        <value>22</value>
+        <value>19</value>
+        <value>18</value>
+        <value>18</value>
+      </temperature>
+      <temperature type="minimum" units="Celsius" time-layout="k-p24h-n7-2">
+        <name>Daily Minimum Temperature</name>
+        <value>10</value>
+        <value>9</value>
+        <value>9</value>
+        <value>14</value>
+        <value>12</value>
+        <value>10</value>
+        <value>9</value>
+      </temperature>
+      <probability-of-precipitation type="12 hour" units="percent" time-layout="k-p12h-n15-3">
+        <name>12 Hourly Probability of Precipitation</name>
+        <value>17</value>
+        <value>10</value>
+        <value>15</value>
+        <value>24</value>
+        <value>11</value>
+        <value>5</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>2</value>
+        <value>0</value>
+        <value>0</value>
+        <value>2</value>
+        <value>2</value>
+        <value>9</value>
+      </probability-of-precipitation>
+    </parameters>
+  </data>
+</dwml>
