@@ -1,4 +1,4 @@
-python-ndfd
+ndfd
 =======
 
 A client for the NOAA-maintained NDFD weather forecast service.
